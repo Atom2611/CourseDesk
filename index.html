@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="icon" type="image/x-icon" href="./Resources/logo.png">
+    
+    <title>CourseDesk</title>
+</head>
+
+<body>
+    
+    <!-- NAVIGATION -->
+    <header>    
+        <div id="menu" class="fas fa-bars"></div>
+        <a href="#home" class="logo"><i class="fas fa-book-reader"></i>&nbsp;CourseDesk</a>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#course">Course</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="login" class="fas fa-user"></div>
+    </header>
+
+    <!-- LOGIN -->
+    <div class="login-form">
+        <form>
+            <h2>Login</h2>
+            <input type="email" placeholder="Username" class="box">
+            <input type="password" placeholder="Password" class="box">
+            <p>Forgot Password? <a href="#">Click here</a></p>
+            <p>Don't Have an account? <a href="#">Create now</a></p>
+            <input type="submit" class="btn" value="login">
+            <i class="fas fa-times"></i>
+        </form>
+    </div>
+    
+    <!-- HOME -->
+    <section class="home" id="home">
+        <h1>Learn without limits</h1>
+        <p>We now accept the fact that learning is a lifelong process of keeping abreast of change. And the most pressing task is to teach people how to learn.</p>
+        <a href="#"><button class="btn">Get started</button></a>
+    </section>
+
+    <!--ABOUT US-->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="./Resources/about.jpg" alt="Flower">
+        </div>
+
+        <div class="content">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi suscipit dolores nihil sunt porro, at quis sint deleniti iure rerum perferendis quaerat reprehenderit assumenda fuga omnis rem nam delectus expedita?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat iure delectus voluptatum! Recusandae, consectetur quaerat. Voluptatibus ut ipsum vitae odio non id. Quo, sequi? Possimus, cum corporis. Maiores, dolorem!</p>
+            <a href="#"><button class="btn">Learn more</button></a>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="course" class="course">
+
+        <h1 class="heading">Our Popular Courses</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./Resources/html.jpg" alt="frontend">
+                <h3 class="price">&#8377;1450</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">The Complete Front-End Web Development Course!</a>
+                    <p>Master the front-end web development with HTML5, CSS, Bootstrap, JavaScript, jQuery, with 3 job-ready projects.</p>
+
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 21 hours</h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 6 months</h3>
+                        <h3><i class="fas fa-book"> </i>14 module</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Resources/photography.jpg" alt="frontend">
+                <h3 class="price">&#8377;950</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Complete Photography (Beginner to Expert)</a>
+                    <p>Learn Portrait Photography, Landscape Photography, Stock Photography, Photography Composition, Black and White, and more</p>
+
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 12 hours</h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 2 months</h3>
+                        <h3><i class="fas fa-book"> </i>8 module</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Resources/java.jpeg" alt="frontend">
+                <h3 class="price">&#8377;1500</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Object Oriented Programming in Java</a>
+                    <p>Java Programming Course for Beginners to Java Object Oriented Programming. Also get to learn little bit about android development.</p>
+
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 21 hours</h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 8 months</h3>
+                        <h3><i class="fas fa-book"> </i>19 module</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Resources/machine.jpeg" alt="frontend">
+                <h3 class="price">&#8377;2050</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Machine Learning</a>
+                    <p>Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!</p>
+
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 48 hours</h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 6 months</h3>
+                        <h3><i class="fas fa-book"> </i>20 module</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Resources/git.jpeg" alt="frontend">
+                <h3 class="price">&#8377;950</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Git & Github (Beginner to Expert)</a>
+                    <p>Master the essentials and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!</p>
+
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 21 hours</h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 6 months</h3>
+                        <h3><i class="fas fa-book"> </i>12 module</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="./Resources/guitar.jpg" alt="frontend">
+                <h3 class="price">&#8377;650</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Complete Guitar Lessons</a>
+                    <p>All-in-one Guitar Course, Fingerstyle Guitar, Blues Guitar, Acoustic Guitar, Electric Guitar & Fingerpicking Guitarra</p>
+
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 8 hours</h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 2 weeks</h3>
+                        <h3><i class="fas fa-book"> </i>7 module</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Teacher -->
+
+    <section class="teacher" id="teacher">
+        <h1 class="heading">Our Experts</h1>
+        <p>Learn from a wide range of courses with our world class teaching community.</p>
+
+        <a href="#"><button class="btn">Learn more</button></a>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact Us</h1>
+
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="Full Name" class="box">
+                <input type="email" placeholder="Email Id" class="box">
+                <input type="password" placeholder="Password" class="box">
+                <input type="number" placeholder="Mobile Number" class="box">
+                <textarea name="addressField" id="" cols="30" rows="10" class="box address" placeholder="Complete Address....."></textarea>
+                <input type="submit" class="btn" value="Send">
+
+            </form>
+
+            <div class="image">
+                <img src="./Resources/icons8-sun.gif" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Branch Locations</h3>
+                <a href="#">Noida</a>
+                <a href="#">Banglore</a>
+                <a href="#">Jamshedpur</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#courses">Courses</a>
+                <a href="#teacher">Teachers</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i>Jamshedpur, India 831001</p>
+                <p><i class="fas fa-envelope"></i>gs7500898@gmail.com</p>
+                <p><i class="fas fa-phone"></i>+123-456-7890</p>
+            </div>
+
+        </div>
+
+        <h1 class="credit">Created By <em> <a href="#">Gaurav Singh</a></em> All Rights Reserved</h1>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
